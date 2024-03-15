@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const validator = require("validator")   // this is the module used to validate the data which is get entered into the database 
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const userSchema = new mongoose.Schema({
     email :{
         type:String,
